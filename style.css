@@ -34,17 +34,28 @@
     max-width: 1088px;
     margin: 0 auto;
 }
-.btn{
+
+.btn {
+    padding: 17px 36px;
     border: none;
     border-radius: 5px;
     background-color: #FD6E0A;
     color: white;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 
 
 /* Individual classes */
+header{
+    background: url("images/developer.png") ,url("images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 40px 30px, bottom right ;
+    
+    background-size: 76px auto, auto;
+}
 header nav {
     padding-top: 50px;
     display: flex;
@@ -53,7 +64,7 @@ header nav {
 }
 
 .logo h2 {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 900;
 }
 
@@ -72,13 +83,58 @@ header nav {
     color: #474747;
     font-size: 19px;
 }
-.menu li button{
-    padding: 17px 36px;
-    font-weight: bold;
-    font-size: 19px;
+
+#banner {
+    width: 83%;
+    max-width: 1264px;
+    padding-top: 30px;
+    margin: 0 43px 0 221px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
+.banner-content{
+    margin-top: 50px;
+}
+.banner-content h2 {
+    color: #474747;
+    margin-bottom: 5px;
+}
 
+.banner-content h1 {
+    color: #181818;
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
 
+.banner-content p {
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner-content p a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FD6E0A;
+}
+.banner-content .btn1{
+    padding: 17px 17px;
+}
+.banner-content .btn2{
+    padding: 17px 23px;
+    border: 0.5px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 30px;
+}
 
+.banner-img img{
+    height: 500px;
+    margin-right: 6.5rem;
+    vertical-align: middle;
+}
 

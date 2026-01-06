@@ -1,0 +1,84 @@
+/* importing google font and cdns */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Shared Classes */
+
+.color-primary {
+    color: #FD6E0A;
+}
+
+.color-bg {
+    background-color: #FFF8F3;
+}
+
+.color-para {
+    color: #757575;
+}
+
+.container {
+    width: 71%;
+    max-width: 1088px;
+    margin: 0 auto;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Individual classes */
+header nav {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h2 {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 19px;
+}
+.menu li button{
+    padding: 17px 36px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+
+
+

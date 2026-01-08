@@ -50,6 +50,7 @@
     max-width: 817px;
     text-align: center;
     color: #181818;
+    margin: 0 auto;
 
 }
 
@@ -198,5 +199,36 @@ header nav {
     color: #181818;
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+#resume .section-heading{
+    padding-bottom: 100px;
+}
+#resume .resume-container{
+    display: flex;
+    gap: 25px;
+    padding-bottom:50px ;
+}
+.resume-container .section-title{
+    color: #474747;
+    font-size: 28px;
+}
+.resume-container .card-title{
+    padding-top: 30px;
+    color: #474747;
+    font-size: 23px;
+    padding-bottom: 8px ;
+}
+.resume-container .card-info{
+    color: #757575;
+    font-weight: 600;
+    font-size: 18px;
+}
+.resume-container .card-txt{
+    color: #757575;
+    padding: 20px 0 ;
+}
+.resume-btn{
+    text-align: center;
 }
 

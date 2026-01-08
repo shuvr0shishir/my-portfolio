@@ -109,11 +109,7 @@ header nav {
 }
 
 #banner {
-    width: 83%;
-    max-width: 1264px;
-    padding-top: 30px;
-    margin: 0 43px 0 221px;
-
+    margin: 30px 40px 0 221px;
     display: flex;
     justify-content: space-between;
 }

@@ -46,7 +46,19 @@
     font-size: 19px;
 }
 
-.section-heading{
+.btn2 {
+    padding: 17px 23px;
+    border: 0.5px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 30px;
+}
+
+.section-heading {
     max-width: 817px;
     text-align: center;
     color: #181818;
@@ -54,15 +66,20 @@
 
 }
 
+.txt-center {
+    text-align: center;
+}
+
 
 /* Individual classes */
-header{
-    background: url("images/developer.png") ,url("images/header_bg.png"), #FFF8F3;
+header {
+    background: url("images/developer.png"), url("images/header_bg.png"), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: 40px 30px, bottom right ;
-    
+    background-position: 40px 30px, bottom right;
+
     background-size: 76px auto, auto;
 }
+
 header nav {
     padding-top: 50px;
     display: flex;
@@ -101,9 +118,10 @@ header nav {
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     margin-top: 50px;
 }
+
 .banner-content h2 {
     color: #474747;
     margin-bottom: 5px;
@@ -120,70 +138,68 @@ header nav {
     margin-bottom: 30px;
     line-height: 30px;
 }
-.banner-content p a{
+
+.banner-content p a {
     text-decoration: none;
     cursor: pointer;
     color: #FD6E0A;
 }
-.banner-content .btn1{
+
+.banner-content .btn1 {
     padding: 17px 17px;
 }
-.banner-content .btn2{
-    padding: 17px 23px;
-    border: 0.5px solid #FD6E0A;
-    border-radius: 5px;
-    color: #FD6E0A;
-    background-color: #FFF8F3;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 19px;
-    margin-left: 30px;
-}
 
-.banner-img img{
+
+.banner-img img {
     height: 500px;
     margin-right: 6.5rem;
     vertical-align: middle;
 }
 
-#about{
+#about {
     padding-top: 130px;
 }
-#about .about-container , #skills .skills-container{
+
+#about .about-container,
+#skills .skills-container {
     text-align: center;
     padding: 131px 156px;
     border-radius: 10px;
 }
-.section-heading h2{
+
+.section-heading h2 {
     font-size: 35px;
 }
-.section-heading p{
+
+.section-heading p {
     margin: 30px 0;
     font-size: 18px;
     line-height: 30px;
 }
 
-.about-info{
+.about-info {
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
 
-.info-card p{
+.info-card p {
     font-size: 18px;
     line-height: 30px;
 }
-.info-card h4{
+
+.info-card h4 {
     color: #474747;
 }
 
 #skills .skills-box {
-    display: flex;    
+    display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
 
 }
-.skills-box .skills-cards{
+
+.skills-box .skills-cards {
     max-width: 260px;
     text-align: left;
     padding: 35px;
@@ -191,44 +207,95 @@ header nav {
     border-radius: 5px;
 }
 
-.skills-box .skills-cards img{
+.skills-box .skills-cards img {
     max-width: 44px;
     margin-bottom: 30px;
 }
-.skills-box .skills-cards h3{
+
+.skills-box .skills-cards h3 {
     color: #181818;
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-#resume .section-heading{
+#resume .section-heading {
     padding-bottom: 100px;
 }
-#resume .resume-container{
+
+#resume .resume-container {
     display: flex;
     gap: 25px;
-    padding-bottom:50px ;
+    padding-bottom: 50px;
 }
-.resume-container .section-title{
+
+.resume-container .section-title {
     color: #474747;
     font-size: 28px;
 }
-.resume-container .card-title{
+
+.resume-container .card-title {
     padding-top: 30px;
     color: #474747;
     font-size: 23px;
-    padding-bottom: 8px ;
+    padding-bottom: 8px;
 }
-.resume-container .card-info{
+
+.resume-container .card-info {
     color: #757575;
     font-weight: 600;
     font-size: 18px;
 }
-.resume-container .card-txt{
+
+.resume-container .card-txt {
     color: #757575;
-    padding: 20px 0 ;
-}
-.resume-btn{
-    text-align: center;
+    padding: 20px 0;
+    line-height: 28px;
 }
 
+footer {
+    margin-top: 130px;
+}
+
+.footer-container {
+    padding: 130px 0 100px;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container .social {
+    max-width: 560px;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+}
+
+.footer-container p {
+    line-height: 28px;
+    padding: 18px 0 28px;
+}
+
+.footer-container .social-icons a {
+    margin-right: 22px;
+}
+
+.footer-container form h2 {
+    margin-bottom: 26px;
+}
+
+.footer-container form input[type="text"],
+input[type="email"],
+textarea {
+    width: 460px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 34px;
+    margin-bottom: 22px;
+    color: #757575;
+    line-height: 28px;
+}
+
+footer .txt-center {
+    margin-bottom: 20px;
+}

@@ -152,12 +152,13 @@ header nav {
     vertical-align: middle;
 }
 
-#about {
+#about,
+#skills,
+#resume {
     padding-top: 130px;
 }
 
-#about .about-container,
-#skills .skills-container {
+#about .about-container{
     text-align: center;
     padding: 131px 156px;
     border-radius: 10px;
@@ -190,15 +191,15 @@ header nav {
 
 #skills .skills-box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 50px;
 
 }
 
 .skills-box .skills-cards {
-    max-width: 260px;
+    max-width: 250px;
     text-align: left;
-    padding: 35px;
+    padding: 33px;
     box-shadow: 0 6px 50px 0 #00000007;
     border-radius: 5px;
 }
